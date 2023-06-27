@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body,
+a {
+    color: black;
+
+}
+
+h1 {
+    /* font-size: 30px;
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: small-caps; */
+
+    text-align: center;
+    font: normal small-caps bold 24px/60px "Garamond"
+}
+
+p {
+    text-align: justify;
+    text-decoration: none;
+    text-transform: none;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    word-spacing: 5px;
+    white-space: normal;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:visited {
+    color: blue
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: gray;
+}
+
+a {
+    border: solid 1px black;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 35px;
+    list-style-image: url("seta.png");
+}
+

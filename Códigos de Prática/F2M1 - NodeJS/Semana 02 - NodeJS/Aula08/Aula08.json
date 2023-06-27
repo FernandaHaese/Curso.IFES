@@ -1,0 +1,30 @@
+{
+    //String
+    "Nome":"Valor",
+    //Número Real
+    "altura": 1.72,
+    //Número Negativo
+    "temperatura": -2,
+    //Valor Booleano
+    "casado": "true",
+    //Valores nulos
+    "site": "null",
+    //Array de strings
+    "Anos":["2020", "2021", "2022", "2023"],
+    //Objetos
+    "CPF": {
+        "Pessoa01":"CPF01",
+        "Pessoa02":"CPF02"
+    },
+    //Lista de Objetos
+    "Notas": [
+        {
+            "Nome":"NomeAluno01",
+            "Nota":"NotaAluno01"
+        }
+        {
+            "Nome": "NomeAluno02",
+            "Nota": "NotaAluno02"
+        }
+    ]
+}

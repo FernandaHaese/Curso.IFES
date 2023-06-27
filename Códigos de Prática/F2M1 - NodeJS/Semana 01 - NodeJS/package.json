@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "html-pdf": "^3.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}

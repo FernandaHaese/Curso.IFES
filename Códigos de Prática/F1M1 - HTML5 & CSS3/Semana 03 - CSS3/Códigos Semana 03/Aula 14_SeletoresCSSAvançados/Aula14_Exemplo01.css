@@ -1,0 +1,47 @@
+p:before {
+    content:"xxx";
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1:after {
+    content:"";
+    background-image: linear-gradient(120deg, #e5ea15,#00c4ff);
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) skew(-50deg);
+}
+
+#p3:first-letter {
+    font-size: 200%;
+    color: #999
+}
+
+#p2:first-line {
+    background-color: #e5ea15;
+    font-variant: small-caps;
+}
+
+ul>li::marker {
+    content:"*";
+    font-size: 90%;
+}
+
+ol>li::marker {
+    color: blue;
+}
+
+a[href^="http"] {
+    font-weight: bold;  
+}
+
+a[href^=".pdf"]::after {
+    content: "(.pdf)";
+}
+

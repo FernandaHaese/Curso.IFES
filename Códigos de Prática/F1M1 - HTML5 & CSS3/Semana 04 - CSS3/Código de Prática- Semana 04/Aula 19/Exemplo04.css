@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+body {
+    background-color: gainsboro;
+    margin: 10px;
+}
+
+header, nav, article, footer {
+    color: gainsboro;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    gap: 5px;
+    grid-template: 100px 500px 100px / repeat(12, 1fr);
+}
+
+header {
+    background-color: cadetblue;
+    grid-column: 1 / -4;
+}
+
+nav {
+    background-color: darkgrey;
+    grid-column: -4 / -1;
+    grid-row: 1 / -1;
+}
+
+article {
+    background-color: ghostwhite;
+    color: cadetblue;
+    grid-column: 1 / -4;
+}
+
+footer {
+    background-color: midnightblue;
+    grid-column: 1 / -4;
+}

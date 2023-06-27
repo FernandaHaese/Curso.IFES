@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 10px;
+}
+
+main>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: darkslategrey;
+}
+
+main>div:nth-child(1n) {
+    background-color: chartreuse;
+}
+
+main>div:nth-child(2n) {
+    background-color: coral;
+}
+
+main>div:nth-child(3n) {
+    background-color: darkcyan;
+}
+
+main>div:nth-child(4n) {
+    background-color: aliceblue;
+}
+
+main {
+    height: calc(100vh - 20px);
+    border: 1px solid black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    /* justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: end;
+    align-items: end; */
+    place-content: space-evenly;
+    place-items: end;
+}
+
+main > div:nth-child(9) {
+   /* justify-self: center;
+    align-self: center; */
+    place-self: center; 
+}

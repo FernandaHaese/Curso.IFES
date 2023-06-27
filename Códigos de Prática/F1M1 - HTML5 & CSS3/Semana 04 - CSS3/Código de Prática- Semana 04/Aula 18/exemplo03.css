@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+div {
+    height: 10%;
+    background-color: gainsboro;
+}
+
+#div1 {
+    width: 50%;
+}
+
+#div2 {
+    width: 20%;
+}
+
+#div3 {
+    width: 70%;
+}
+
+#div4 {
+    width: 30%;
+}
+
+#div5 {
+    width: 85%;
+}

@@ -1,0 +1,13 @@
+* {
+    border: solid 1px black;
+}
+
+li {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+}
+
+
+
+

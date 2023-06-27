@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 10px;
+}
+
+main>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: darkslategrey;
+}
+
+main>div:nth-child(1n) {
+    background-color: chartreuse;
+}
+
+main>div:nth-child(2n) {
+    background-color: coral;
+}
+
+main>div:nth-child(3n) {
+    background-color: darkcyan;
+}
+
+main>div:nth-child(4n) {
+    background-color: aliceblue;
+}
+
+#c1 {
+    border: 1px solid blakc;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+
+#c2 {
+    border: 1px solid blakc;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}

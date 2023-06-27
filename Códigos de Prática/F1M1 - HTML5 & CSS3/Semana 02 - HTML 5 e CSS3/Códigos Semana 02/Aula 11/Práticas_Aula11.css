@@ -1,0 +1,29 @@
+h1 {
+    color: black;
+}
+
+.destacado {
+    background-color: white;
+}
+
+#txtNome {
+    font-size: larger;
+}
+
+p,
+h2,
+.textoSimples {
+    color: aqua;
+}
+
+* {
+    font-size: medium;
+}
+
+p i {
+    text-align: center;
+}
+
+strong+p {
+    text-align: left;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <title>Formulários com Boostrap</title>
+  </head>
+  <body>
+    <div class="container p-5">
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input
+            type="email"
+            id=""
+            email
+            class="form-control"
+            placeholder="texto"
+          />
+          <div class="form-text">
+            Nunca compartilharemos seu email com terceiros
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input type="senha" id="senha" class="form-control" />
+          <div></div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" id="lembrar" class="form-check-label" />
+          <label for="lembrar" class="form-check-label">Lembrar de mim</label>
+          <div></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+      <hr />
+      <input type="file" id="arquivo" class="form-control" />
+      <input type="color" id="cor" class="form-control" />
+      <hr />
+      <div class="mb-3">
+        <label class="form-label">cidade</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite para buscar..."
+          list="cidades"
+        />
+        <datalist id="cidades">
+          <option value="Cidade" 1=""></option>
+          <option value="Cidade" 2=""></option>
+          <option value="Cidade" 3=""></option>
+          <option value="Cidade" 4=""></option>
+          <option value="Cidade" 5=""></option>
+          <option value="Cidade" 6=""></option>
+        </datalist>
+      </div>
+    </div>
+  </body>
+</html>

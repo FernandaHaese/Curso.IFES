@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <main>
+        
+        <header>
+      <table style="border-spacing: 10px">
+        <tr>
+          <td rowspan="2" class="fotodeperfil">
+            <img src="img/Foto 4x4.jpeg" alt="Foto de Perfil" />
+          </td>
+          <td>
+            <h1 style="margin-bottom: 1px">Fernanda Haese Passoni</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5 style="margin-top: 1px">
+              &lt;Designer de Aprendizagem e Desenvolvedor web&gt;
+            </h5>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <main>
+      <table style="border-spacing: 20px">
+        <tr>
+          <td colspan="4" class="nav">
+            <ul>
+              <li>
+                <a
+                  class="botão inative"
+                  href="index.html"
+                  title="Página principal"
+                  >Principal</a
+                >
+              </li>
+              <li>
+                <a class="botão inative" href="quemsou.html" title="Sobre mim"
+                  >Quem Sou</a
+                >
+              </li>
+              <li>
+                <a
+                  class="botão inative"
+                  href="projetos.html"
+                  title="Meus projetos"
+                  >Projetos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="botão active"
+                  href="contatos.html"
+                  title="Meus contatos"
+                  >Contatos</a
+                >
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <table style="border-spacing: 10px;">
+		<tr>
+			<td>
+				<h1 style="font-size: 40px; margin-bottom: 1px">Entre em contato!</h1>
+				<p style="font-size: 15px; margin-top: 1px">Preencha todos os campos do formulário a seguir e em até 48 horas lhe responderei.<br>
+					Será um prazer lhe atender!
+				</p>
+			</td>
+		</tr>
+	</table>
+	<form action="/send" method="POST">
+		<table style="border-spacing: 10px;">
+			<tr>
+				<td>
+					<p>
+						<label for="assunto">Assunto</label><br>
+						<select title="Selecione o assunto" name="Assunto" id="Assunto" required>
+							<option>Selecione o assunto</option>
+						</select>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="Nome">Nome</label>
+						<br>
+						<input type="text" id="Nome" title="Digite seu nome" placeholder="Digite seu nome" required>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="Email">Email</label>
+						<br>
+						<input type="Email" title="Digite seu email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="Email" placeholder="Digite seu email" required>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="Tel">Telefone</label><br>
+						<input type="Tel" id="Tel" title="Digite seu telefone" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" placeholder="(99) 99999-9999" required>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="Mensagem">Mensagem</label>
+						<br>
+						<textarea id="Mensagem" title="Digite aqui sua mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+					</p>
+					<button class="botão-submit" type="submit" style="margin-left: 0;">Enviar</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<hr>
+					<h4 style="margin-bottom: 1px">Outras formas de contato:</h4>
+					<ul class="contacts">
+						<li>Residente em Cachoeiro de Itapemirim, ES</li>
+						<li><a href="mailto:nandahaese@gmail.com">nandahaese@gmail.com</a></li>
+						<li>(21)97956-7674</li>
+						<li><a href="https://www.linkedin.com/in/fernanda-haese-passoni-934442218/">LinkedIn</a></li>
+						<li><a href="https://fernandapassoni.myportfolio.com/">Portfólio</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</form>
+    </main>
+  
+    <footer>
+        <p>Copyright &#169; 2022</p>
+        <a href="https://www.ifes.edu.br/" target="_blank"><img src="img/ifes.png" alt="Ifes" height="100px" /></a>
+    </footer>
+</body>
+
+</html>

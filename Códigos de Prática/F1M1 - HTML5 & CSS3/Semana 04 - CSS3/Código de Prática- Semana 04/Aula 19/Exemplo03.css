@@ -1,0 +1,35 @@
+body {
+    background-color: gainsboro;
+    margin: 10px;
+}
+
+.conteiner>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #f5f5f5;
+}
+
+.conteiner>div:nth-child(1n) {
+    background-color: cadetblue;
+}
+
+.conteiner>div:nth-child(2n) {
+    background-color: crimson;
+}
+
+.conteiner>div:nth-child(3n) {
+    background-color: forestgreen;
+}
+
+.conteiner>div:nth-child(4n) {
+    background-color: gold;
+}
+
+.conteiner {
+    display: grid;
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+    gap: 10px;
+}
+

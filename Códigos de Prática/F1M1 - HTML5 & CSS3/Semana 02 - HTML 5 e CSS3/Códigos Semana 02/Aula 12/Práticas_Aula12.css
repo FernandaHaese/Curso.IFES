@@ -1,0 +1,46 @@
+:root {
+    --prussian-blue: #003049ff;
+    --lemon-meringue: #eae2b7ff;
+    --jet: #353535ff;
+    --white: #ffffffff;
+    --indigo-dye: #284b63ff;
+}
+
+body {
+    background-color: gainsboro;
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+}
+
+p {
+    color: var(--jet);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header,
+footer {
+    background-color: var(--prussian-blue);
+    padding: 10px;
+    text-align: center;
+    border-left: 10px solid orange;
+    border-right: 10px solid orange;
+}
+
+main {
+    padding: 10px;
+}

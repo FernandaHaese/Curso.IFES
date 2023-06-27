@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práticas da Aula 10</title>
+</head>
+
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <hr>
+    <form method="POST" action="/cliente/cadastrar">
+        <p>
+            <label>Nome</label><br>
+            <input type="text">
+        </p>
+        <p>
+            <label>E-mail</label><br>
+            <input type="email">
+        </p>
+        <p>
+            <label>URL Portfolio Online</label><br>
+            <input type="url">
+        </p>
+        <p>
+            <label>Data de Nascimento</label><br>
+            <input type="date">
+        </p>
+        <p>
+            <label>Qtde Dependentes</label><br>
+            <input type="number">
+        </p>
+        <p>
+            <label>Cor Preferida</label><br>
+            <input type="color">
+        </p>
+        <p>
+            <label>Telefone</label><br>
+            <input type="tel">
+        </p>
+        <p>
+            <input type="checkbox">
+            <label>Receber promoções</label>
+        </p>
+        <p>
+            <label>Estado</label><br>
+            <select placeholder="Selecione...">
+                <option value="1">Estado1</option>
+                <option value="2">Estado2</option>
+                <option value="3">Estado3</option>
+            </select>
+        </p>
+        <p>
+            <label>Mini-Biografia</label><br>
+            <input type="textarea" name="Mini-biografia" id="txtMiniBiografia" cols="30" rows="10">
+        </p>
+        <p>
+            <input type="submit" name="Enviar">
+        </p>
+    </form>
+</body>
+
+</html>

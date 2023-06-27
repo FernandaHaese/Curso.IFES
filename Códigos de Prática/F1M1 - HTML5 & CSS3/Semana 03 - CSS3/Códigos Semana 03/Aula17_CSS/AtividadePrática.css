@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.divheader1 {
+    background-color: gray;
+    height: 100px;
+}
+
+.divheader2 {
+    background-color: black;
+    height: 40px;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.divnav {
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    text-align: left;
+    background-color: darkgrey;
+    color: white;
+    margin: 5px; 
+    padding: 5px;
+}
+
+.divcont {
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 0 auto;
+    height: 100vh;
+    width: 50%;
+    overflow: auto;
+}
+
+.divfooter {
+    background-color: cadetblue;
+    height: 40px;
+}

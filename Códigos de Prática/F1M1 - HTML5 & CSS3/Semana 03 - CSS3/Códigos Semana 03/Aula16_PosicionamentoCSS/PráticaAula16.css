@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#divazul, #divamarela, #divvermelha {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+#divazul {
+    background-color: aqua;
+    top: 150px;
+    left: 150px;
+}
+
+#divamarela {
+    background-color: yellow;
+}
+
+#divvermelha {
+    background-color: red;
+    top: 300px;
+}
+
+#divcinza {
+    background-color: grey;
+    opacity: 50%;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+
+#divverde {
+    background-color: green;
+    height: 100px;
+    width: 825px;
+    opacity: 50%;
+    position: absolute;
+    top: 700px;
+}

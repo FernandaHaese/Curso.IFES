@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: gainsboro;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+
+div {
+    /*height: 120px;*/
+    width: 20%;
+    border: dotted 2px black;
+    font-size: 60px;
+    text-align: center;
+    line-height: 120px;
+}
+
+#div3 {
+   /* flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 200px; */
+    flex: 0 0 200px;
+    align-self: flex-start;
+}
+
+
+
+/*
+para definir a ordem:
+#div1 {
+    order: 3;
+}
+#div2 {
+    order: 5;
+}
+#div3 {
+    order: 2;
+}
+#div4 {
+    order: 1;
+}
+#div5 {
+    order: 7;
+}
+#div6 {
+    order: 4;
+}
+#div7 {
+    order: 6;
+}
+*/

@@ -1,0 +1,19 @@
+img {
+    height: 200px;
+}
+
+p {
+    background-color: bisque;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+}

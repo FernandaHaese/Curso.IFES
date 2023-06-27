@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 3fr 1fr 2fr 6fr 2fr;
+    grid-template-columns: 1fr;
+}
+
+header, nav, article, footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.c {
+    background-color: cadetblue;
+    grid-row: 1 / 2;
+}
+
+nav {
+    background-color: darkgray;
+    grid-row: 2 / 3;
+}
+
+.t {
+    background-color: lavender;
+    grid-row: 3 / 4;
+}
+
+article {
+    background-color: gainsboro;
+    grid-row: 4 / 5;
+}
+
+footer {
+    background-color: darkcyan;
+    grid-row: 5 / -1;
+}

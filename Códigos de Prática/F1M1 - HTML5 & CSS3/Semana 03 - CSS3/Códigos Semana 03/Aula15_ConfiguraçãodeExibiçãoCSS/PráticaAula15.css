@@ -1,0 +1,32 @@
+
+p {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+}
+
+#p2, #p3 {
+    border-left: solid 1px black;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+div.personagem {
+    display: inline-block;
+}
+
+img {
+    height: 250px;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+img:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}

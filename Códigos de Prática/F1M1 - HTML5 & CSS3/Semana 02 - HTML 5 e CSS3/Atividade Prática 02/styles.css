@@ -1,0 +1,200 @@
+/* elementos importados */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* header */
+
+header {
+    background-image: linear-gradient(#ff0f7b, #f89b29);
+    width: 100%;
+    color: white;
+}
+
+.fotodeperfil {
+    width: 10%;
+}
+
+header img {
+    margin-left: 1px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+header h5 {
+    font-family: "Courier", cursive;
+    font-size: 18px;
+}
+
+/* body geral */
+
+* {
+    font-family: Open Sans, Courier, Caveat, sans-serif;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+table {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 35px;
+    display: inline-block;
+}
+
+/* botões */
+
+.botão:hover {
+    color: gray;
+    background-color: #f89b29;
+    cursor: pointer;
+}
+
+.botão {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+}
+
+.botão.active {
+    background-color: #2b2a2a;
+}
+
+.botão.inative {
+    color: #1e1c1c;
+}
+
+.botão.inative:hover {
+    color: white;
+}
+
+.botão-submit {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff0f7b;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Navegação */
+
+.nav {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav li {
+    padding: 30px;
+}
+
+li i {
+    font-size: 14px;
+}
+
+/* Seção 1 - Index html */
+
+ .seção1 {
+     border-radius: 10px;
+     width: 50%;
+     height: 50%;
+     background-color: #2b2a2a;
+ }
+
+ .hero-text {
+     font-family: 'Caveat', cursive;
+     color: white;
+ }
+
+ .hero-text h1 {
+     margin-left: 20px;
+     font-family: 'open sans';
+     color: goldenrod;
+ }
+
+ .hero-text h2,
+ h3 {
+     font-family: 'Caveat', cursive;
+     margin-left: 20px;
+ }
+
+ .hero-img img {
+     border-radius: 10px;
+     width: 100%;
+     height: 100%;
+ }
+
+/* Seção 2 - Index html */
+
+.seção2-link a {
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 2px;
+    border-spacing: 10px;
+}
+
+/* página contato */
+
+.contatos {
+    padding-left: 0;
+}
+
+.contacts li {
+    margin-bottom: 1px;
+    display: block;
+    padding-left: 0;
+    line-height: 25px;
+}
+
+select {
+    width: 51%;
+    height: 30px;
+    border-radius: 5px;
+}  
+
+textarea {
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* rodapé */
+
+footer {
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color:gainsboro;
+    text-align: center;
+    min-height: 100px;
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+    h1 {
+        color: blue;
+    }
+
+    #p1 {
+        font-size: 24px;
+    }
+
+    .vermelho {
+        color: red;
+    }
+
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1 i {
+        color: yellow;
+    }
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práticas_Aula09</title>
+</head>
+
+<body>
+    <form method="post" action="/contato/cotar">
+        <p>
+            <label for="txtNome">Nome do Dono</label><br>
+            <input type="text" name="NomeDoDono" id="txtNome" placeholder="Seu Nome Completo">
+        </p>
+        <fieldset>
+            <legend>Tipo de Animal</legend>
+            <input type="radio" name="TipoDeAnimal" id="rdCachorro" value="P">
+            <label for="rdCachorro">Cachorro</label><br>
+            <input type="radio" name="TipoDeAnimal" id="rdCoelho" value="W">
+            <label for="rdCoelho">Coelho</label><br>
+            <input type="radio" name="TipoDeAnimal" id="rdGato" value="P">
+            <label for="rdGato">Gato</label><br>
+            <input type="radio" name="TipoDeAnimal" id="rdPássaro" value="W">
+            <label for="rdPássaro">Pássaro</label><br>
+        </fieldset>
+        <p>
+            <label for="txtServiço">Tipo de Serviço</label><br>
+            <input type="text" name="Serviço" id="txtServiço" placeholder="Tipo de Serviço">
+        </p>
+        <p>
+            <label for="txtObservações">Observações</label><br>
+            <textarea name="Observações" id="txtObservações" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>

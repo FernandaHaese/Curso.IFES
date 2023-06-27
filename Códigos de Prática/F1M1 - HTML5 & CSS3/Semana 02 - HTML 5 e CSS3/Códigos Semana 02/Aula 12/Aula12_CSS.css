@@ -1,0 +1,32 @@
+body {
+    /* background-color: gainsboro;
+    background-image: url(bg.png);
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+    background: gainsboro url(bg.png) repeat fixed;
+    background-size: 100px;
+}
+
+p {
+    background-color: rgba(0, 94, 225, 0.303);
+    color: white;
+    border-radius: 10px;
+    border-style: solid dotted;
+    border: 3px solid black;
+}
+
+#p1 {
+    /* margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 100px; */
+    margin: 50px auto;
+    padding: 10px;
+
+    width: 200px;
+    heigth: 200px;
+    
+    outline: 3px solid black;
+    outline-offset: 6px;
+}
